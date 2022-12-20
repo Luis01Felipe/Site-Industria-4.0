@@ -1,0 +1,205 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.logo
+{
+    cursor: pointer;
+    width: 6%;
+    height: 6%;
+    position: relative;
+    bottom: 5px;
+    right:  95px;
+}
+.img1
+{
+    width: 100%;
+    height: 450px;
+    position: static;
+}
+.article
+{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img2
+{
+    width: 30%;
+    height: auto;
+}
+
+.footer-dark
+{
+    background-color: #212121;
+    color: #fff;
+}
+
+.footer-container
+{
+    padding: 20px;
+}
+
+.footer-container p
+{
+    text-indent: 5px;
+    align-items: center;
+}
+
+/*O p serve para dar margem aos paragrafos, para que eles fiquem bem alinhados, o Margin é a classe que vai fazer isso para outros elementos*/
+p, .Margin{
+    margin: 0px 15% 0px;
+    text-align: justify;
+}
+/*
+br{
+    display: block; /* makes it have a width 
+            content: ""; /* clears default height 
+            margin-top: 8px; /* change this to whatever height you want it 
+}
+*/
+h5{
+    margin: 0px 16% 0px;
+}
+.MarginLi{
+    margin: 0px 20% 0px;
+}
+/*Deixa o que estiver com isso sublinhado com uma cor semelhante ao preto*/
+#title{
+    text-decoration: underline;
+    text-decoration-color: rgb(61, 61, 104);
+}
+/*O id Seta serve pra controlar a seta que leva ao topo da pagina, ela so aparecera durante os paragrafos e no topo do rodapé */
+#seta{ 
+    position: sticky;
+    left: 95%;
+    bottom: 0%;
+    width: 60px;
+    height: 60px;
+}
+/*Precisa fazer com que a borda se adapte ao tamanho do texto*/
+#indice{
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    margin-right: 85%;
+}
+/*Serve pra por a fonte (referencia) nas imagens 2*/
+#img2_fonte{
+    margin: 0px 35% 0px;
+}
+/*TESTE DE ALINHAMENTO*/
+#element1 {
+    display:inline-block;
+    margin-right:10px;} 
+#element2 {
+    display:inline-block; 
+    position: relative;
+    bottom: 46px;
+    
+} 
+h1, h4{
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+footer ul{
+    list-style: none;
+  }
+
+.img_menu{
+    width: 40px;
+    height: auto;
+}
+
+#imgGmail{
+    width: 30px;
+    height: auto;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    overflow: hidden;
+    display: inline-block;
+
+  }  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
